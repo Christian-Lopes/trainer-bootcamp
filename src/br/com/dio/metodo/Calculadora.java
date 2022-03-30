@@ -1,4 +1,4 @@
-package br.com.dio.metodo.aula1;
+package br.com.dio.metodo;
 
 import java.util.Scanner;
 
