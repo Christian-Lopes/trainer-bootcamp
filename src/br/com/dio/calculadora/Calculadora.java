@@ -1,5 +1,14 @@
 package br.com.dio.calculadora;
 
+/**
+ * @Curso Bootcampp DIO
+ * @diciplina Entendendo Métodos Java
+ * @professor Thiago Leite
+ * @author Christian Lopes de Oliveira
+ * @date 24/03/2022
+ * @execicio Calculadora
+ */
+
 import java.util.Scanner;
 
 public class Calculadora {
