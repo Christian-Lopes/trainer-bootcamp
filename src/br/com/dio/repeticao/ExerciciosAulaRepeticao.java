@@ -3,7 +3,7 @@
  * @diciplina Arrays e estrutura de repetição
  * @professor Camila Calvacante
  */
-package br.com.dio.array;
+package br.com.dio.repeticao;
 
 import java.util.Scanner;
 
