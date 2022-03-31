@@ -44,6 +44,7 @@ public class Calculadora {
 		subtracao(a, b);
 		multiplicacao(a, b);
 		divisao(a, b);
+		scan.close();
 	}
 
 }

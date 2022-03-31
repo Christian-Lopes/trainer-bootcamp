@@ -40,8 +40,8 @@ public class ExerciciosAulaRepeticao {
 				break;
 			System.out.println("Idade: ");
 			idade = scan.nextInt();
-			scan.close();
 		}
+		scan.close();
 	}
 
 	public static void exercicioNota() {
@@ -112,7 +112,7 @@ public class ExerciciosAulaRepeticao {
 		
 		System.out.println("Pares: " + quantidadePares);
 		System.out.println("Ímpares: " + quantidadeImpares);
-		
+		scan.close();
 	}
 	
 	public static void exercicioTabuada() {
@@ -128,7 +128,7 @@ public class ExerciciosAulaRepeticao {
 		for(int i = 1; i <= 10; i++) {
 			System.out.println(tabuada + " x " + i + " = " + (tabuada * i));
 		}
-		
+		scan.close();
 	}
 	
 	public static void exercicioFatorial() {
@@ -145,6 +145,7 @@ public class ExerciciosAulaRepeticao {
 		for(int i = fatorial; i >= 1; i--) {
 			total *= i;
 		}
-		System.out.println("Fatorial de " + fatorial + "!: "  + total );	
+		System.out.println("Fatorial de " + fatorial + "!: "  + total );
+		scan.close();
 	}
 }

@@ -32,6 +32,7 @@ public class Calculadora {
 		System.out.println("Subtração: " + subtracao);
 		System.out.println("Divisão: " + divisao);
 		System.out.println("Multiplicação: " + multiplicacao);
+		scan.close();
 	}
 
 	public static int soma(int a, int b) {
